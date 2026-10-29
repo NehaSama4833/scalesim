@@ -1,0 +1,11 @@
+signal   lag sync | p99 wait | SLO viol | mean replicas | max replicas
+util       0   15 |     40.1 |    0.152 |           8.6 | 19
+util      15   15 |     46.4 |    0.203 |           9.2 | 19
+util      30   15 |     53.1 |    0.218 |           9.4 | 20
+util      15    5 |     37.4 |    0.169 |           9.7 | 20
+util      15   30 |     62.7 |    0.209 |           8.4 | 20
+inflight   0   15 |     29.7 |    0.069 |           8.9 | 20
+inflight  15   15 |     36.3 |    0.103 |          11.6 | 20
+inflight  30   15 |     43.9 |    0.124 |          11.7 | 20
+inflight  15    5 |     25.8 |    0.087 |          12.1 | 20
+inflight  15   30 |     40.9 |    0.099 |           8.8 | 20

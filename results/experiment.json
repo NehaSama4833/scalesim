@@ -1,0 +1,1896 @@
+{
+ "seeds": 3,
+ "auto": [
+  {
+   "scenario": "step",
+   "signal": "util",
+   "startup": 10,
+   "down_window": 0,
+   "p50": 0.0,
+   "p99": 28.32092366309313,
+   "slo_viol": 0.1443284064919477,
+   "mean_replicas": 7.108333333333333,
+   "scale_events": 121.0,
+   "reversals": 38.333333333333336,
+   "unserved": 2.3333333333333335,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    19.021794934378274,
+    38.630168049598005
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "util",
+   "startup": 10,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 17.131449891578608,
+   "slo_viol": 0.0612250664705048,
+   "mean_replicas": 9.8475,
+   "scale_events": 17.333333333333332,
+   "reversals": 4.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    15.954243723043772,
+    18.647099429129273
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "util",
+   "startup": 30,
+   "down_window": 0,
+   "p50": 0.0,
+   "p99": 38.68897603214422,
+   "slo_viol": 0.16387416616267234,
+   "mean_replicas": 6.610416666666666,
+   "scale_events": 71.0,
+   "reversals": 26.666666666666668,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    36.558755497563986,
+    41.10206482560886
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "util",
+   "startup": 30,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 28.4992533065079,
+   "slo_viol": 0.11555173859019842,
+   "mean_replicas": 9.420416666666668,
+   "scale_events": 16.666666666666668,
+   "reversals": 4.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    26.369692017589227,
+    29.830741739278675
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "util",
+   "startup": 60,
+   "down_window": 0,
+   "p50": 0.0,
+   "p99": 67.86964957256141,
+   "slo_viol": 0.33302975399325135,
+   "mean_replicas": 6.339583333333334,
+   "scale_events": 50.0,
+   "reversals": 22.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    67.46333244861125,
+    68.4685195909666
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "util",
+   "startup": 60,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 46.385220941794366,
+   "slo_viol": 0.20258432869419227,
+   "mean_replicas": 9.224583333333333,
+   "scale_events": 17.0,
+   "reversals": 4.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 19.0,
+   "p99_range": [
+    45.99327088215347,
+    46.667494861309045
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "util",
+   "startup": 120,
+   "down_window": 0,
+   "p50": 9.068793287605104,
+   "p99": 106.85869968095277,
+   "slo_viol": 0.552034016533979,
+   "mean_replicas": 6.235416666666667,
+   "scale_events": 33.0,
+   "reversals": 15.0,
+   "unserved": 6.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    97.16481210065675,
+    114.0133692478786
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "util",
+   "startup": 120,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 76.12112039761796,
+   "slo_viol": 0.08025967451548065,
+   "mean_replicas": 8.21,
+   "scale_events": 11.333333333333334,
+   "reversals": 2.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 13.333333333333334,
+   "p99_range": [
+    73.99270726356872,
+    78.08733428659052
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "util",
+   "startup": 240,
+   "down_window": 0,
+   "p50": 121.39858701885419,
+   "p99": 188.46529715868033,
+   "slo_viol": 0.9030660036694739,
+   "mean_replicas": 6.316666666666666,
+   "scale_events": 20.0,
+   "reversals": 6.0,
+   "unserved": 3.0,
+   "max_replicas_seen": 19.333333333333332,
+   "p99_range": [
+    183.50352343419178,
+    191.44660462081947
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "util",
+   "startup": 240,
+   "down_window": 300,
+   "p50": 111.49018366283254,
+   "p99": 188.46703563475782,
+   "slo_viol": 0.7644495441576756,
+   "mean_replicas": 8.37875,
+   "scale_events": 10.666666666666666,
+   "reversals": 2.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 19.333333333333332,
+   "p99_range": [
+    183.50827286214033,
+    191.44690350936096
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "inflight",
+   "startup": 10,
+   "down_window": 0,
+   "p50": 0.0,
+   "p99": 18.290292241047684,
+   "slo_viol": 0.18484746738923263,
+   "mean_replicas": 9.52625,
+   "scale_events": 130.0,
+   "reversals": 44.333333333333336,
+   "unserved": 13.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    18.054663391650735,
+    18.644635107457056
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "inflight",
+   "startup": 10,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 14.781781083119135,
+   "slo_viol": 0.04315111437185868,
+   "mean_replicas": 10.870416666666666,
+   "scale_events": 14.0,
+   "reversals": 4.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    13.513457939954726,
+    15.513812527867126
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "inflight",
+   "startup": 30,
+   "down_window": 0,
+   "p50": 1.8543920731952614,
+   "p99": 26.992492801479017,
+   "slo_viol": 0.3531174379414554,
+   "mean_replicas": 11.267916666666666,
+   "scale_events": 109.33333333333333,
+   "reversals": 37.0,
+   "unserved": 85.66666666666667,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    26.941166657181544,
+    27.07980069722082
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "inflight",
+   "startup": 30,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 23.162341567918116,
+   "slo_viol": 0.06866988269665418,
+   "mean_replicas": 11.080833333333333,
+   "scale_events": 13.0,
+   "reversals": 4.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    22.168402397856767,
+    25.01024154278474
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "inflight",
+   "startup": 60,
+   "down_window": 0,
+   "p50": 0.8899757841278415,
+   "p99": 40.688719259463085,
+   "slo_viol": 0.30973317221193547,
+   "mean_replicas": 9.926527777777778,
+   "scale_events": 76.66666666666667,
+   "reversals": 28.333333333333332,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    37.24549976097064,
+    42.525211139376694
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "inflight",
+   "startup": 60,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 36.25881308584669,
+   "slo_viol": 0.10276570889826225,
+   "mean_replicas": 11.564166666666667,
+   "scale_events": 13.333333333333334,
+   "reversals": 4.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    33.78715149476395,
+    37.78858147786684
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "inflight",
+   "startup": 120,
+   "down_window": 0,
+   "p50": 3.9366328058317017,
+   "p99": 69.1650875672057,
+   "slo_viol": 0.3740578538099994,
+   "mean_replicas": 11.620277777777778,
+   "scale_events": 61.666666666666664,
+   "reversals": 22.666666666666668,
+   "unserved": 67.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    67.8849016191886,
+    69.9185426528952
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "inflight",
+   "startup": 120,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 61.80440725064839,
+   "slo_viol": 0.17108019039447275,
+   "mean_replicas": 12.324583333333335,
+   "scale_events": 13.666666666666666,
+   "reversals": 4.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    61.103977108542935,
+    62.51246007600497
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "inflight",
+   "startup": 240,
+   "down_window": 0,
+   "p50": 17.496734444260806,
+   "p99": 124.98767149014434,
+   "slo_viol": 0.6595812648269485,
+   "mean_replicas": 13.063194444444443,
+   "scale_events": 44.333333333333336,
+   "reversals": 15.0,
+   "unserved": 23.666666666666668,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    124.45823687411261,
+    125.81169329648603
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "inflight",
+   "startup": 240,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 118.0088976144446,
+   "slo_viol": 0.06389383199115513,
+   "mean_replicas": 11.257916666666667,
+   "scale_events": 10.333333333333334,
+   "reversals": 4.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    113.96266343817217,
+    120.86850979651811
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "queue",
+   "startup": 10,
+   "down_window": 0,
+   "p50": 7.7248342256033595,
+   "p99": 36.67118998085911,
+   "slo_viol": 0.5515479770030344,
+   "mean_replicas": 9.03986111111111,
+   "scale_events": 112.0,
+   "reversals": 48.333333333333336,
+   "unserved": 49.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    35.8850858107134,
+    37.47859056180311
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "queue",
+   "startup": 10,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 35.121576064449364,
+   "slo_viol": 0.15547679472413575,
+   "mean_replicas": 16.820555555555554,
+   "scale_events": 32.666666666666664,
+   "reversals": 13.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    33.88650531655899,
+    37.06317057717111
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "queue",
+   "startup": 30,
+   "down_window": 0,
+   "p50": 15.204746506895495,
+   "p99": 53.55487528570908,
+   "slo_viol": 0.6639110893554844,
+   "mean_replicas": 11.361944444444445,
+   "scale_events": 91.0,
+   "reversals": 39.0,
+   "unserved": 49.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    53.186499425494645,
+    53.992822510727876
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "queue",
+   "startup": 30,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 52.38738620833167,
+   "slo_viol": 0.21533424272669624,
+   "mean_replicas": 17.357499999999998,
+   "scale_events": 27.0,
+   "reversals": 11.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    51.17503742164317,
+    53.15947577393889
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "queue",
+   "startup": 60,
+   "down_window": 0,
+   "p50": 28.36198943596264,
+   "p99": 79.58940059389302,
+   "slo_viol": 0.7465607881687472,
+   "mean_replicas": 13.211666666666668,
+   "scale_events": 71.0,
+   "reversals": 29.0,
+   "unserved": 122.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    78.53676054125565,
+    80.18620243346385
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "queue",
+   "startup": 60,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 76.43540015195555,
+   "slo_viol": 0.3012688073270233,
+   "mean_replicas": 17.27,
+   "scale_events": 28.0,
+   "reversals": 11.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    74.35339280696503,
+    77.57570121642472
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "queue",
+   "startup": 120,
+   "down_window": 0,
+   "p50": 45.633972265156075,
+   "p99": 130.63961619456572,
+   "slo_viol": 0.8132210299821884,
+   "mean_replicas": 15.415833333333332,
+   "scale_events": 48.333333333333336,
+   "reversals": 21.0,
+   "unserved": 149.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    129.74307436548585,
+    131.3436127082221
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "queue",
+   "startup": 120,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 126.7683099719686,
+   "slo_viol": 0.3920967754499906,
+   "mean_replicas": 17.778333333333332,
+   "scale_events": 22.0,
+   "reversals": 9.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    125.86019015799077,
+    127.74899140814603
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "queue",
+   "startup": 240,
+   "down_window": 0,
+   "p50": 89.0866913386166,
+   "p99": 233.32416727461558,
+   "slo_viol": 0.8891723673029799,
+   "mean_replicas": 16.715833333333332,
+   "scale_events": 33.666666666666664,
+   "reversals": 13.0,
+   "unserved": 182.66666666666666,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    232.17629098094028,
+    234.10586897080668
+   ]
+  },
+  {
+   "scenario": "step",
+   "signal": "queue",
+   "startup": 240,
+   "down_window": 300,
+   "p50": 33.63981969753241,
+   "p99": 233.80882694920797,
+   "slo_viol": 0.5759767006682908,
+   "mean_replicas": 18.23875,
+   "scale_events": 18.333333333333332,
+   "reversals": 7.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    230.6772411505358,
+    236.62212660829715
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "util",
+   "startup": 10,
+   "down_window": 0,
+   "p50": 0.0,
+   "p99": 9.333435740027925,
+   "slo_viol": 0.07597258503546601,
+   "mean_replicas": 7.8379166666666675,
+   "scale_events": 112.66666666666667,
+   "reversals": 38.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    8.155880358081959,
+    11.342972784519246
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "util",
+   "startup": 10,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 0.28314308382439274,
+   "slo_viol": 0.0006609248831234792,
+   "mean_replicas": 10.0,
+   "scale_events": 27.0,
+   "reversals": 4.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 14.0,
+   "p99_range": [
+    0.10197298373336187,
+    0.5044885816847948
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "util",
+   "startup": 30,
+   "down_window": 0,
+   "p50": 0.0,
+   "p99": 5.727798997074179,
+   "slo_viol": 0.013025916614567404,
+   "mean_replicas": 7.2525,
+   "scale_events": 66.66666666666667,
+   "reversals": 23.333333333333332,
+   "unserved": 0.0,
+   "max_replicas_seen": 17.666666666666668,
+   "p99_range": [
+    2.686968958150749,
+    8.521309805228311
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "util",
+   "startup": 30,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 1.8888888396791195,
+   "slo_viol": 0.0020578877275152676,
+   "mean_replicas": 9.893749999999999,
+   "scale_events": 26.666666666666668,
+   "reversals": 4.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 14.0,
+   "p99_range": [
+    1.4887909515661983,
+    2.3916607931675293
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "util",
+   "startup": 60,
+   "down_window": 0,
+   "p50": 0.0,
+   "p99": 13.429198057623012,
+   "slo_viol": 0.052855942979834064,
+   "mean_replicas": 7.2004166666666665,
+   "scale_events": 53.0,
+   "reversals": 20.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 16.666666666666668,
+   "p99_range": [
+    11.117840964494869,
+    15.892874665139905
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "util",
+   "startup": 60,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 6.6906341087032954,
+   "slo_viol": 0.01098452710065329,
+   "mean_replicas": 10.247916666666667,
+   "scale_events": 29.0,
+   "reversals": 4.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 15.333333333333334,
+   "p99_range": [
+    4.176376763321203,
+    11.098995171743907
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "util",
+   "startup": 120,
+   "down_window": 0,
+   "p50": 34.127475724641975,
+   "p99": 98.60584802809682,
+   "slo_viol": 0.6839195719634589,
+   "mean_replicas": 7.24625,
+   "scale_events": 32.333333333333336,
+   "reversals": 7.333333333333333,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    92.19789998880854,
+    106.53411155807585
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "util",
+   "startup": 120,
+   "down_window": 300,
+   "p50": 20.8847105585877,
+   "p99": 98.60280319536791,
+   "slo_viol": 0.5880798106498792,
+   "mean_replicas": 11.266944444444443,
+   "scale_events": 25.333333333333332,
+   "reversals": 4.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    92.19807617050273,
+    106.52739153243817
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "util",
+   "startup": 240,
+   "down_window": 0,
+   "p50": 323.51033944195615,
+   "p99": 451.4630077149036,
+   "slo_viol": 0.9792795708685018,
+   "mean_replicas": 6.640416666666667,
+   "scale_events": 14.0,
+   "reversals": 3.0,
+   "unserved": 1769.0,
+   "max_replicas_seen": 18.0,
+   "p99_range": [
+    402.02142278788045,
+    541.351118793561
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "util",
+   "startup": 240,
+   "down_window": 300,
+   "p50": 19.80402394570372,
+   "p99": 405.92312243506416,
+   "slo_viol": 0.5085658966160673,
+   "mean_replicas": 9.893749999999999,
+   "scale_events": 13.666666666666666,
+   "reversals": 4.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 18.0,
+   "p99_range": [
+    402.02209625724873,
+    411.0180973054034
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "inflight",
+   "startup": 10,
+   "down_window": 0,
+   "p50": 0.0,
+   "p99": 13.777909412742972,
+   "slo_viol": 0.16138579725228397,
+   "mean_replicas": 9.209444444444443,
+   "scale_events": 122.66666666666667,
+   "reversals": 44.333333333333336,
+   "unserved": 0.6666666666666666,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    10.297403483068372,
+    16.014441741592172
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "inflight",
+   "startup": 10,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 0.17695332358547564,
+   "slo_viol": 0.0006609127402993128,
+   "mean_replicas": 10.514583333333334,
+   "scale_events": 26.0,
+   "reversals": 5.333333333333333,
+   "unserved": 0.0,
+   "max_replicas_seen": 14.666666666666666,
+   "p99_range": [
+    0.023525622296583136,
+    0.2809252673288565
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "inflight",
+   "startup": 30,
+   "down_window": 0,
+   "p50": 0.5133648160412273,
+   "p99": 28.691069744846263,
+   "slo_viol": 0.2645556453752514,
+   "mean_replicas": 10.127638888888889,
+   "scale_events": 96.0,
+   "reversals": 34.333333333333336,
+   "unserved": 7.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    27.594212506603053,
+    30.135034541803744
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "inflight",
+   "startup": 30,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 1.1983074042378434,
+   "slo_viol": 0.002059285398650126,
+   "mean_replicas": 10.879305555555556,
+   "scale_events": 26.666666666666668,
+   "reversals": 5.333333333333333,
+   "unserved": 0.0,
+   "max_replicas_seen": 17.0,
+   "p99_range": [
+    0.43648554804774714,
+    2.3747012351901335
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "inflight",
+   "startup": 60,
+   "down_window": 0,
+   "p50": 1.544975347354845,
+   "p99": 36.16763502959075,
+   "slo_viol": 0.346539156029763,
+   "mean_replicas": 10.59625,
+   "scale_events": 80.33333333333333,
+   "reversals": 26.666666666666668,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    29.560493406162806,
+    40.09084884246085
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "inflight",
+   "startup": 60,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 6.147391186419848,
+   "slo_viol": 0.015616668548973372,
+   "mean_replicas": 11.920833333333334,
+   "scale_events": 26.0,
+   "reversals": 5.333333333333333,
+   "unserved": 0.0,
+   "max_replicas_seen": 17.666666666666668,
+   "p99_range": [
+    3.270389673631543,
+    9.833265171339578
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "inflight",
+   "startup": 120,
+   "down_window": 0,
+   "p50": 3.580758585780361,
+   "p99": 52.6798822211023,
+   "slo_viol": 0.4586572329836658,
+   "mean_replicas": 11.8275,
+   "scale_events": 67.66666666666667,
+   "reversals": 20.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    37.718026432766976,
+    61.66614072611083
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "inflight",
+   "startup": 120,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 29.024541418165274,
+   "slo_viol": 0.08883270634186864,
+   "mean_replicas": 13.256388888888887,
+   "scale_events": 30.0,
+   "reversals": 4.666666666666667,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    24.388327208750706,
+    34.594781960850554
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "inflight",
+   "startup": 240,
+   "down_window": 0,
+   "p50": 16.867848060861814,
+   "p99": 97.95586635959421,
+   "slo_viol": 0.7053677886832959,
+   "mean_replicas": 13.794166666666667,
+   "scale_events": 45.333333333333336,
+   "reversals": 15.333333333333334,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    89.42828674910452,
+    108.513560169454
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "inflight",
+   "startup": 240,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 97.68456407341422,
+   "slo_viol": 0.29126606243831316,
+   "mean_replicas": 14.329166666666666,
+   "scale_events": 30.333333333333332,
+   "reversals": 4.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    89.42508565453689,
+    108.46444612697069
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "queue",
+   "startup": 10,
+   "down_window": 0,
+   "p50": 10.49174449200855,
+   "p99": 37.98376618699523,
+   "slo_viol": 0.5931567585696965,
+   "mean_replicas": 9.476111111111111,
+   "scale_events": 99.33333333333333,
+   "reversals": 46.333333333333336,
+   "unserved": 3.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    37.336455976827295,
+    38.496791094091925
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "queue",
+   "startup": 10,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 33.98508022519817,
+   "slo_viol": 0.16353373266844232,
+   "mean_replicas": 15.115416666666667,
+   "scale_events": 27.666666666666668,
+   "reversals": 12.0,
+   "unserved": 2.6666666666666665,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    33.45437800308228,
+    34.780560449196095
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "queue",
+   "startup": 30,
+   "down_window": 0,
+   "p50": 18.263007819410323,
+   "p99": 54.83844140052732,
+   "slo_viol": 0.6763144182557915,
+   "mean_replicas": 11.300833333333332,
+   "scale_events": 83.0,
+   "reversals": 37.0,
+   "unserved": 8.333333333333334,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    54.444329653001766,
+    55.08865985536218
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "queue",
+   "startup": 30,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 52.54230360499366,
+   "slo_viol": 0.22092009405486493,
+   "mean_replicas": 16.95125,
+   "scale_events": 26.666666666666668,
+   "reversals": 11.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    51.70400961209392,
+    53.623570632264475
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "queue",
+   "startup": 60,
+   "down_window": 0,
+   "p50": 29.4986269490923,
+   "p99": 80.50379274156667,
+   "slo_viol": 0.7555293676653628,
+   "mean_replicas": 13.198333333333332,
+   "scale_events": 65.66666666666667,
+   "reversals": 28.666666666666668,
+   "unserved": 17.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    79.9893138108606,
+    81.04555347523352
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "queue",
+   "startup": 60,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 80.77536566587092,
+   "slo_viol": 0.3014762134025948,
+   "mean_replicas": 17.10736111111111,
+   "scale_events": 27.666666666666668,
+   "reversals": 11.0,
+   "unserved": 2.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    78.91910421735147,
+    82.50597446221525
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "queue",
+   "startup": 120,
+   "down_window": 0,
+   "p50": 50.94268831242349,
+   "p99": 132.20923619980337,
+   "slo_viol": 0.8317680411304975,
+   "mean_replicas": 15.10125,
+   "scale_events": 47.666666666666664,
+   "reversals": 19.0,
+   "unserved": 79.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    130.58258012889598,
+    133.37405038068286
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "queue",
+   "startup": 120,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 130.58769962872296,
+   "slo_viol": 0.4114891372560014,
+   "mean_replicas": 17.280416666666667,
+   "scale_events": 25.666666666666668,
+   "reversals": 9.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    128.15626764281978,
+    134.23344281681727
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "queue",
+   "startup": 240,
+   "down_window": 0,
+   "p50": 96.28558004939198,
+   "p99": 230.0550982391608,
+   "slo_viol": 0.8906279174948271,
+   "mean_replicas": 16.849166666666665,
+   "scale_events": 29.0,
+   "reversals": 11.0,
+   "unserved": 180.33333333333334,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    227.81403717492768,
+    232.7248623586532
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "signal": "queue",
+   "startup": 240,
+   "down_window": 300,
+   "p50": 8.061805356552918,
+   "p99": 231.90080672367563,
+   "slo_viol": 0.5093372524356062,
+   "mean_replicas": 17.965833333333332,
+   "scale_events": 19.333333333333332,
+   "reversals": 7.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    230.6337250827425,
+    232.5971532934313
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "util",
+   "startup": 10,
+   "down_window": 0,
+   "p50": 0.0,
+   "p99": 24.118858995985295,
+   "slo_viol": 0.2186458237037093,
+   "mean_replicas": 5.296666666666667,
+   "scale_events": 122.0,
+   "reversals": 39.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    22.161408958450046,
+    27.58612296905861
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "util",
+   "startup": 10,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 20.300103128843467,
+   "slo_viol": 0.09323146727510538,
+   "mean_replicas": 8.009583333333333,
+   "scale_events": 15.333333333333334,
+   "reversals": 4.333333333333333,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    13.97456488476605,
+    24.086438452857852
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "util",
+   "startup": 30,
+   "down_window": 0,
+   "p50": 0.10496301326554658,
+   "p99": 42.97525796954837,
+   "slo_viol": 0.2920384058063234,
+   "mean_replicas": 4.966388888888889,
+   "scale_events": 76.0,
+   "reversals": 29.0,
+   "unserved": 15.666666666666666,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    42.323080068801545,
+    43.95396692532755
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "util",
+   "startup": 30,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 33.33909504316942,
+   "slo_viol": 0.14501581068620958,
+   "mean_replicas": 7.763888888888888,
+   "scale_events": 15.0,
+   "reversals": 4.333333333333333,
+   "unserved": 0.0,
+   "max_replicas_seen": 19.666666666666668,
+   "p99_range": [
+    18.886862324680532,
+    42.65767684599485
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "util",
+   "startup": 60,
+   "down_window": 0,
+   "p50": 0.0,
+   "p99": 67.26828251318301,
+   "slo_viol": 0.2499777746283328,
+   "mean_replicas": 4.51625,
+   "scale_events": 48.333333333333336,
+   "reversals": 24.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 14.0,
+   "p99_range": [
+    60.571910216950485,
+    79.75991542490146
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "util",
+   "startup": 60,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 50.4372393499172,
+   "slo_viol": 0.1909755781438095,
+   "mean_replicas": 6.5680555555555555,
+   "scale_events": 14.333333333333334,
+   "reversals": 4.666666666666667,
+   "unserved": 0.0,
+   "max_replicas_seen": 13.333333333333334,
+   "p99_range": [
+    29.600351669729985,
+    61.24211251762671
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "util",
+   "startup": 120,
+   "down_window": 0,
+   "p50": 0.29748804060401807,
+   "p99": 99.71159174994516,
+   "slo_viol": 0.3618333710949146,
+   "mean_replicas": 4.376666666666666,
+   "scale_events": 38.666666666666664,
+   "reversals": 19.666666666666668,
+   "unserved": 0.0,
+   "max_replicas_seen": 10.0,
+   "p99_range": [
+    92.15820714585655,
+    108.83274343779684
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "util",
+   "startup": 120,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 84.20984222724981,
+   "slo_viol": 0.26792380315804853,
+   "mean_replicas": 6.289027777777778,
+   "scale_events": 11.666666666666666,
+   "reversals": 4.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 11.333333333333334,
+   "p99_range": [
+    46.391230219803106,
+    108.098177304513
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "util",
+   "startup": 240,
+   "down_window": 0,
+   "p50": 7.657150845248775,
+   "p99": 178.36818828398438,
+   "slo_viol": 0.4970564217866495,
+   "mean_replicas": 4.41625,
+   "scale_events": 25.0,
+   "reversals": 14.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 10.666666666666666,
+   "p99_range": [
+    136.09440983616344,
+    199.63423410747077
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "util",
+   "startup": 240,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 147.5068612602909,
+   "slo_viol": 0.38798156303348685,
+   "mean_replicas": 5.666111111111111,
+   "scale_events": 9.666666666666666,
+   "reversals": 3.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 10.666666666666666,
+   "p99_range": [
+    43.511324426902284,
+    199.63807399912665
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "inflight",
+   "startup": 10,
+   "down_window": 0,
+   "p50": 0.06844086294951997,
+   "p99": 23.640312420585264,
+   "slo_viol": 0.2939935390790868,
+   "mean_replicas": 8.180277777777778,
+   "scale_events": 134.66666666666666,
+   "reversals": 43.333333333333336,
+   "unserved": 11.333333333333334,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    21.732007449107186,
+    27.275877648700515
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "inflight",
+   "startup": 10,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 15.351772848842836,
+   "slo_viol": 0.06963941345590487,
+   "mean_replicas": 8.940833333333332,
+   "scale_events": 12.333333333333334,
+   "reversals": 5.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    13.45908898379277,
+    17.475170506623883
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "inflight",
+   "startup": 30,
+   "down_window": 0,
+   "p50": 2.604112099322189,
+   "p99": 34.81155997099577,
+   "slo_viol": 0.42911310546583636,
+   "mean_replicas": 10.379027777777777,
+   "scale_events": 112.33333333333333,
+   "reversals": 36.0,
+   "unserved": 25.666666666666668,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    34.135000807482,
+    36.16339405687552
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "inflight",
+   "startup": 30,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 22.99631782767129,
+   "slo_viol": 0.09761252018094653,
+   "mean_replicas": 9.151388888888889,
+   "scale_events": 11.333333333333334,
+   "reversals": 5.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    17.26815638145642,
+    27.598683803088786
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "inflight",
+   "startup": 60,
+   "down_window": 0,
+   "p50": 15.372960998233717,
+   "p99": 54.07462859790527,
+   "slo_viol": 0.6411526248134742,
+   "mean_replicas": 12.495277777777778,
+   "scale_events": 81.33333333333333,
+   "reversals": 28.666666666666668,
+   "unserved": 70.66666666666667,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    52.96608232439077,
+    55.52780703604995
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "inflight",
+   "startup": 60,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 38.89590941717883,
+   "slo_viol": 0.13827443415371174,
+   "mean_replicas": 9.690972222222221,
+   "scale_events": 11.0,
+   "reversals": 4.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    28.946050799871575,
+    45.0905516650966
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "inflight",
+   "startup": 120,
+   "down_window": 0,
+   "p50": 3.2116915616823007,
+   "p99": 84.447216368167,
+   "slo_viol": 0.3779382522838574,
+   "mean_replicas": 10.109722222222222,
+   "scale_events": 61.333333333333336,
+   "reversals": 23.333333333333332,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    80.83119072040083,
+    87.39794824578333
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "inflight",
+   "startup": 120,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 66.86760876118971,
+   "slo_viol": 0.18125977898196202,
+   "mean_replicas": 10.315833333333334,
+   "scale_events": 11.666666666666666,
+   "reversals": 4.666666666666667,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    43.653333354327,
+    78.53087677534685
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "inflight",
+   "startup": 240,
+   "down_window": 0,
+   "p50": 64.84018876520071,
+   "p99": 160.45249631867526,
+   "slo_viol": 0.845259939926474,
+   "mean_replicas": 16.30541666666667,
+   "scale_events": 40.333333333333336,
+   "reversals": 13.0,
+   "unserved": 585.6666666666666,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    159.9303854213398,
+    160.7846570890835
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "inflight",
+   "startup": 240,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 111.929914123049,
+   "slo_viol": 0.25056526575337296,
+   "mean_replicas": 11.724305555555555,
+   "scale_events": 12.666666666666666,
+   "reversals": 4.666666666666667,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    45.25456190723234,
+    145.38311803786328
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "queue",
+   "startup": 10,
+   "down_window": 0,
+   "p50": 6.517135950800726,
+   "p99": 36.83837845505929,
+   "slo_viol": 0.5332621515376327,
+   "mean_replicas": 9.47375,
+   "scale_events": 106.66666666666667,
+   "reversals": 52.0,
+   "unserved": 43.333333333333336,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    36.10365061890645,
+    37.957969595746135
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "queue",
+   "startup": 10,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 22.42599199578014,
+   "slo_viol": 0.12596256416651486,
+   "mean_replicas": 17.124166666666667,
+   "scale_events": 28.333333333333332,
+   "reversals": 13.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    22.054260651960128,
+    22.86115242196937
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "queue",
+   "startup": 30,
+   "down_window": 0,
+   "p50": 9.843257348290104,
+   "p99": 46.53670673261892,
+   "slo_viol": 0.5833668682832255,
+   "mean_replicas": 10.615555555555556,
+   "scale_events": 97.66666666666667,
+   "reversals": 39.666666666666664,
+   "unserved": 11.333333333333334,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    37.941572704161445,
+    52.68628573681199
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "queue",
+   "startup": 30,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 33.10912424828366,
+   "slo_viol": 0.15864537820153066,
+   "mean_replicas": 17.199166666666667,
+   "scale_events": 28.0,
+   "reversals": 11.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    32.656158965054125,
+    33.78295682493655
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "queue",
+   "startup": 60,
+   "down_window": 0,
+   "p50": 23.359993224401023,
+   "p99": 79.90331400968097,
+   "slo_viol": 0.7195852591398237,
+   "mean_replicas": 13.484583333333333,
+   "scale_events": 66.0,
+   "reversals": 31.0,
+   "unserved": 150.66666666666666,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    78.72347443341079,
+    81.39557337969748
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "queue",
+   "startup": 60,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 70.91702444688495,
+   "slo_viol": 0.32763363240108945,
+   "mean_replicas": 17.524166666666666,
+   "scale_events": 24.0,
+   "reversals": 11.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    69.5945336198777,
+    72.25037681384242
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "queue",
+   "startup": 120,
+   "down_window": 0,
+   "p50": 44.67204414661291,
+   "p99": 110.37128601397164,
+   "slo_viol": 0.818591124193845,
+   "mean_replicas": 15.245555555555555,
+   "scale_events": 47.666666666666664,
+   "reversals": 21.333333333333332,
+   "unserved": 18.333333333333332,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    107.72660927642008,
+    112.45963100110752
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "queue",
+   "startup": 120,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 87.3848113947825,
+   "slo_viol": 0.3363045980149237,
+   "mean_replicas": 17.77208333333333,
+   "scale_events": 21.666666666666668,
+   "reversals": 9.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    85.02144030461196,
+    88.970416518641
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "queue",
+   "startup": 240,
+   "down_window": 0,
+   "p50": 76.97130058928856,
+   "p99": 163.7470049703362,
+   "slo_viol": 0.8920966997335614,
+   "mean_replicas": 17.11583333333333,
+   "scale_events": 28.333333333333332,
+   "reversals": 13.0,
+   "unserved": 767.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    162.4732731875163,
+    165.99222804052093
+   ]
+  },
+  {
+   "scenario": "spike",
+   "signal": "queue",
+   "startup": 240,
+   "down_window": 300,
+   "p50": 12.802464551935847,
+   "p99": 159.17069611786073,
+   "slo_viol": 0.5313026924407199,
+   "mean_replicas": 18.222083333333334,
+   "scale_events": 17.333333333333332,
+   "reversals": 7.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    157.278140395959,
+    160.86624435371496
+   ]
+  }
+ ],
+ "static": [
+  {
+   "scenario": "step",
+   "replicas": 4,
+   "p50": 301.13154622300266,
+   "p99": 664.7540289171145,
+   "slo_viol": 0.8642829967988481,
+   "mean_replicas": 4.0,
+   "scale_events": 0.0,
+   "reversals": 0.0,
+   "unserved": 1774.3333333333333,
+   "max_replicas_seen": 4.0,
+   "p99_range": [
+    656.6809981555577,
+    672.1641843326433
+   ]
+  },
+  {
+   "scenario": "step",
+   "replicas": 6,
+   "p50": 49.98254926014607,
+   "p99": 147.76509685027978,
+   "slo_viol": 0.705576215711396,
+   "mean_replicas": 6.0,
+   "scale_events": 0.0,
+   "reversals": 0.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 6.0,
+   "p99_range": [
+    142.78987551632278,
+    156.54677038893578
+   ]
+  },
+  {
+   "scenario": "step",
+   "replicas": 10,
+   "p50": 0.0,
+   "p99": 0.0,
+   "slo_viol": 0.0,
+   "mean_replicas": 10.0,
+   "scale_events": 0.0,
+   "reversals": 0.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 10.0,
+   "p99_range": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "replicas": 4,
+   "p50": 268.6655150643101,
+   "p99": 479.75498616537965,
+   "slo_viol": 0.9281543928687644,
+   "mean_replicas": 4.0,
+   "scale_events": 0.0,
+   "reversals": 0.0,
+   "unserved": 3645.6666666666665,
+   "max_replicas_seen": 4.0,
+   "p99_range": [
+    451.4818807967242,
+    494.75454298370283
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "replicas": 6,
+   "p50": 36.9157972016939,
+   "p99": 97.05910601614,
+   "slo_viol": 0.6914054517110563,
+   "mean_replicas": 6.0,
+   "scale_events": 0.0,
+   "reversals": 0.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 6.0,
+   "p99_range": [
+    90.80453483721385,
+    102.75823815600063
+   ]
+  },
+  {
+   "scenario": "ramp",
+   "replicas": 10,
+   "p50": 0.0,
+   "p99": 0.15403193871912854,
+   "slo_viol": 0.0,
+   "mean_replicas": 10.0,
+   "scale_events": 0.0,
+   "reversals": 0.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 10.0,
+   "p99_range": [
+    0.0,
+    0.33171632336296747
+   ]
+  },
+  {
+   "scenario": "spike",
+   "replicas": 4,
+   "p50": 0.0,
+   "p99": 65.37075745883097,
+   "slo_viol": 0.15870728482524923,
+   "mean_replicas": 4.0,
+   "scale_events": 0.0,
+   "reversals": 0.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 4.0,
+   "p99_range": [
+    62.71495865710521,
+    69.24851733322717
+   ]
+  },
+  {
+   "scenario": "spike",
+   "replicas": 6,
+   "p50": 0.0,
+   "p99": 16.70650374346744,
+   "slo_viol": 0.08080230639390142,
+   "mean_replicas": 6.0,
+   "scale_events": 0.0,
+   "reversals": 0.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 6.0,
+   "p99_range": [
+    15.93192446294167,
+    17.316501070631926
+   ]
+  },
+  {
+   "scenario": "spike",
+   "replicas": 10,
+   "p50": 0.0,
+   "p99": 0.0,
+   "slo_viol": 0.0,
+   "mean_replicas": 10.0,
+   "scale_events": 0.0,
+   "reversals": 0.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 10.0,
+   "p99_range": [
+    0.0,
+    0.0
+   ]
+  }
+ ],
+ "long": [
+  {
+   "scenario": "rare_peak",
+   "signal": "static",
+   "replicas": 4,
+   "p50": 0.0,
+   "p99": 851.3665113170022,
+   "slo_viol": 0.45480696605603416,
+   "mean_replicas": 4.0,
+   "scale_events": 0.0,
+   "reversals": 0.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 4.0,
+   "p99_range": [
+    819.2968782429973,
+    876.7022872536004
+   ]
+  },
+  {
+   "scenario": "rare_peak",
+   "signal": "static",
+   "replicas": 6,
+   "p50": 0.0,
+   "p99": 188.55006281893088,
+   "slo_viol": 0.36969103511132295,
+   "mean_replicas": 6.0,
+   "scale_events": 0.0,
+   "reversals": 0.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 6.0,
+   "p99_range": [
+    171.1284865045959,
+    211.7334917521428
+   ]
+  },
+  {
+   "scenario": "rare_peak",
+   "signal": "static",
+   "replicas": 10,
+   "p50": 0.0,
+   "p99": 0.0,
+   "slo_viol": 0.0,
+   "mean_replicas": 10.0,
+   "scale_events": 0.0,
+   "reversals": 0.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 10.0,
+   "p99_range": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "scenario": "rare_peak",
+   "signal": "util",
+   "startup": 30,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 39.26322398344683,
+   "slo_viol": 0.050772226163482,
+   "mean_replicas": 4.4907407407407405,
+   "scale_events": 16.333333333333332,
+   "reversals": 4.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    37.01507943039826,
+    43.31114139839933
+   ]
+  },
+  {
+   "scenario": "rare_peak",
+   "signal": "util",
+   "startup": 120,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 113.22806297263361,
+   "slo_viol": 0.16933898681958715,
+   "mean_replicas": 4.460648148148148,
+   "scale_events": 15.666666666666666,
+   "reversals": 4.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    111.19648226666482,
+    114.62135029411161
+   ]
+  },
+  {
+   "scenario": "rare_peak",
+   "signal": "inflight",
+   "startup": 30,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 26.812027496922283,
+   "slo_viol": 0.030589027448009422,
+   "mean_replicas": 4.890740740740741,
+   "scale_events": 14.666666666666666,
+   "reversals": 4.0,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    24.188728763591286,
+    29.23718581259748
+   ]
+  },
+  {
+   "scenario": "rare_peak",
+   "signal": "inflight",
+   "startup": 120,
+   "down_window": 300,
+   "p50": 0.0,
+   "p99": 79.17217814088826,
+   "slo_viol": 0.07343214939494735,
+   "mean_replicas": 5.195833333333334,
+   "scale_events": 17.666666666666668,
+   "reversals": 4.666666666666667,
+   "unserved": 0.0,
+   "max_replicas_seen": 20.0,
+   "p99_range": [
+    76.81531710165685,
+    80.99024894448384
+   ]
+  }
+ ]
+}

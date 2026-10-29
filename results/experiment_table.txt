@@ -1,0 +1,48 @@
+seeds per cell: 3 | wait = queueing delay before a request starts (TTFT proxy); SLO = wait > 5 s
+
+STATIC baselines (scenario, replicas): p99 wait s | SLO violation | mean replicas
+  step   n=4   p99   664.8 | viol 0.864 | replicas 4.0
+  step   n=6   p99   147.8 | viol 0.706 | replicas 6.0
+  step   n=10  p99     0.0 | viol 0.000 | replicas 10.0
+  ramp   n=4   p99   479.8 | viol 0.928 | replicas 4.0
+  ramp   n=6   p99    97.1 | viol 0.691 | replicas 6.0
+  ramp   n=10  p99     0.2 | viol 0.000 | replicas 10.0
+  spike  n=4   p99    65.4 | viol 0.159 | replicas 4.0
+  spike  n=6   p99    16.7 | viol 0.081 | replicas 6.0
+  spike  n=10  p99     0.0 | viol 0.000 | replicas 10.0
+
+== step: p99 wait (s) / SLO violation / mean replicas / reversals  [rows: signal+down_window, cols: startup s]
+                startup 10                    startup 30                    startup 60                    startup 120                   startup 240                   
+util dw=0         28.3/0.144/7.1/38.3           38.7/0.164/6.6/26.7           67.9/0.333/6.3/22.0          106.9/0.552/6.2/15.0          188.5/0.903/6.3/6.0          
+util dw=300       17.1/0.061/9.8/4.0            28.5/0.116/9.4/4.0            46.4/0.203/9.2/4.0            76.1/0.080/8.2/2.0           188.5/0.764/8.4/2.0          
+inflight dw=0     18.3/0.185/9.5/44.3           27.0/0.353/11.3/37.0          40.7/0.310/9.9/28.3           69.2/0.374/11.6/22.7         125.0/0.660/13.1/15.0        
+inflight dw=300   14.8/0.043/10.9/4.0           23.2/0.069/11.1/4.0           36.3/0.103/11.6/4.0           61.8/0.171/12.3/4.0          118.0/0.064/11.3/4.0         
+queue dw=0        36.7/0.552/9.0/48.3           53.6/0.664/11.4/39.0          79.6/0.747/13.2/29.0         130.6/0.813/15.4/21.0         233.3/0.889/16.7/13.0        
+queue dw=300      35.1/0.155/16.8/13.0          52.4/0.215/17.4/11.0          76.4/0.301/17.3/11.0         126.8/0.392/17.8/9.0          233.8/0.576/18.2/7.0         
+
+== ramp: p99 wait (s) / SLO violation / mean replicas / reversals  [rows: signal+down_window, cols: startup s]
+                startup 10                    startup 30                    startup 60                    startup 120                   startup 240                   
+util dw=0          9.3/0.076/7.8/38.0            5.7/0.013/7.3/23.3           13.4/0.053/7.2/20.0           98.6/0.684/7.2/7.3           451.5/0.979/6.6/3.0          
+util dw=300        0.3/0.001/10.0/4.0            1.9/0.002/9.9/4.0             6.7/0.011/10.2/4.0           98.6/0.588/11.3/4.0          405.9/0.509/9.9/4.0          
+inflight dw=0     13.8/0.161/9.2/44.3           28.7/0.265/10.1/34.3          36.2/0.347/10.6/26.7          52.7/0.459/11.8/20.0          98.0/0.705/13.8/15.3        
+inflight dw=300    0.2/0.001/10.5/5.3            1.2/0.002/10.9/5.3            6.1/0.016/11.9/5.3           29.0/0.089/13.3/4.7           97.7/0.291/14.3/4.0         
+queue dw=0        38.0/0.593/9.5/46.3           54.8/0.676/11.3/37.0          80.5/0.756/13.2/28.7         132.2/0.832/15.1/19.0         230.1/0.891/16.8/11.0        
+queue dw=300      34.0/0.164/15.1/12.0          52.5/0.221/17.0/11.0          80.8/0.301/17.1/11.0         130.6/0.411/17.3/9.0          231.9/0.509/18.0/7.0         
+
+== spike: p99 wait (s) / SLO violation / mean replicas / reversals  [rows: signal+down_window, cols: startup s]
+                startup 10                    startup 30                    startup 60                    startup 120                   startup 240                   
+util dw=0         24.1/0.219/5.3/39.0           43.0/0.292/5.0/29.0           67.3/0.250/4.5/24.0           99.7/0.362/4.4/19.7          178.4/0.497/4.4/14.0         
+util dw=300       20.3/0.093/8.0/4.3            33.3/0.145/7.8/4.3            50.4/0.191/6.6/4.7            84.2/0.268/6.3/4.0           147.5/0.388/5.7/3.0          
+inflight dw=0     23.6/0.294/8.2/43.3           34.8/0.429/10.4/36.0          54.1/0.641/12.5/28.7          84.4/0.378/10.1/23.3         160.5/0.845/16.3/13.0        
+inflight dw=300   15.4/0.070/8.9/5.0            23.0/0.098/9.2/5.0            38.9/0.138/9.7/4.0            66.9/0.181/10.3/4.7          111.9/0.251/11.7/4.7         
+queue dw=0        36.8/0.533/9.5/52.0           46.5/0.583/10.6/39.7          79.9/0.720/13.5/31.0         110.4/0.819/15.2/21.3         163.7/0.892/17.1/13.0        
+queue dw=300      22.4/0.126/17.1/13.0          33.1/0.159/17.2/11.0          70.9/0.328/17.5/11.0          87.4/0.336/17.8/9.0          159.2/0.531/18.2/7.0         
+
+== RARE PEAK (3 h run, 20-minute plateau): p99 wait / SLO violation / mean replicas (max replicas seen)
+  static n=4                 p99   851.4 | viol 0.455 | replicas  4.00 (max 4)
+  static n=6                 p99   188.6 | viol 0.370 | replicas  6.00 (max 6)
+  static n=10                p99     0.0 | viol 0.000 | replicas 10.00 (max 10)
+  util startup=30 dw=300     p99    39.3 | viol 0.051 | replicas  4.49 (max 20)
+  util startup=120 dw=300    p99   113.2 | viol 0.169 | replicas  4.46 (max 20)
+  inflight startup=30 dw=300 p99    26.8 | viol 0.031 | replicas  4.89 (max 20)
+  inflight startup=120 dw=300 p99    79.2 | viol 0.073 | replicas  5.20 (max 20)
